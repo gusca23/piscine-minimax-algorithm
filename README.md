@@ -18,9 +18,9 @@ lo primero que necesitaba era crear un tablero en el cual iban a estar mi raton 
 - Entonces cada vez que el gato se mueva usaria la funcion minimax para poder hacer lo que mejor le conviene para evitar la derrota. En su caso el gato es coronado ganador si logra atrapar al raton.
 
 una vez terminada la logica, lo que hice fue inicializar el juego:
-    posicion inicial computadora
-    posicion inicial jugador
+    posicion inicial computadora, 
+    posicion inicial jugador, 
     repetir estos procesos:
-        turno del computadora
-        turno del jugador
-        ver si alguno gano
+        - turno del computadora
+        - turno del jugador
+        - ver si alguno gano
