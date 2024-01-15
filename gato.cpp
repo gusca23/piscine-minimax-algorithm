@@ -171,6 +171,7 @@ int determinar_posicion(int posicion){
     return determinar_posicion(posicion);
 }
 
+// funcion minimax que minimiza la perdida maxima posible.
 float minimax(int posicion_gato, int posicion_raton, int profundidad, float alfa, float beta, bool es_maximizador){
     // analiza todo el arbol de posibilidades (profundidad) y segun la prediccion eligira un camino
     if(profundidad == 0 || gano_raton(posicion_raton)){
